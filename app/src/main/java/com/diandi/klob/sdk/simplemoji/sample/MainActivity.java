@@ -43,3 +43,14 @@ public class MainActivity extends FragmentActivity {
 
 
 }
+
+
+
+/*Error:Could not find com.github.dcendents:android-maven-plugin:1.3.
+Searched in the following locations:
+    file:/F:/thunder/edf8c589bb55718a3fdee381573c7d8a/android-studio/gradle/m2repository/com/github/dcendents/android-maven-plugin/1.3/android-maven-plugin-1.3.pom
+    file:/F:/thunder/edf8c589bb55718a3fdee381573c7d8a/android-studio/gradle/m2repository/com/github/dcendents/android-maven-plugin/1.3/android-maven-plugin-1.3.jar
+    https://jcenter.bintray.com/com/github/dcendents/android-maven-plugin/1.3/android-maven-plugin-1.3.pom
+    https://jcenter.bintray.com/com/github/dcendents/android-maven-plugin/1.3/android-maven-plugin-1.3.jar
+Required by:
+    :Simplemoji:unspecified*/

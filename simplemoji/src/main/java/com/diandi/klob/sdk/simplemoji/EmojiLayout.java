@@ -96,13 +96,13 @@ public class EmojiLayout {
                 if (checkBoxEmoji.isChecked()) {
                     rootViewHigh = rootView.getHeight();
 
-                    final int bottomHigh = dpToPx(100); // 底部虚拟按键高度，nexus5是73dp，以防万一，所以设大一点
+                    final int bottomHigh = dpToPx(100);
                     int rootParentHigh = rootView.getRootView().getHeight();
                     if (rootParentHigh - rootViewHigh > bottomHigh) {
-                        // 说明键盘已经弹出来了，等键盘消失后再设置 emoji keyboard 可见
+
                         popSoftkeyboard(mActivity, mEmojiconEditText, false);
 
-                        // 魅族手机的 rootView 无论输入法是否弹出高度都是不变的，只好搞个延时做这个事
+
                         rootView.postDelayed(new Runnable() {
                             @Override
                             public void run() {
